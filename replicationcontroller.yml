@@ -1,0 +1,33 @@
+ubuntu@ip-172-31-80-183:~$ cat rc.yml 
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: nginxwebapprc
+spec:
+  replicas: 3
+  selector:
+    app: nginxwebapp
+  template:
+    metadata:
+      name: nginxwebapppod
+      labels:
+        app: nginxwebapp
+    spec:
+      containers:
+      - name: nginxwebapp
+        image: nginx
+        ports:
+        - containerPort: 80
+---
+#node-port service manifest
+apiVersion: v1
+kind: Service
+metadata:
+   name: nginxsvc
+spec:
+    type: NodePort
+    selector:
+            app: nginxwebapp
+    ports:
+    - port: 80
+      targetPort: 80
