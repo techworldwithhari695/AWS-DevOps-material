@@ -1,0 +1,34 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: hariitns
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mytomcat9
+  labels:
+    app: mytomcat9
+  namespace: hariitns
+spec:
+  containers:
+  - name: mytomcat9
+    image: harikrishna857/mytomcat9
+    ports:
+    - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mytomcat9svc
+  namespace: hariitns
+spec:
+  type: NodePort
+  selector:
+    app: mytomcat9  #POD label
+  ports:
+    - port: 80
+      targetPort: 8080
+      nodePort: 30232
+...
