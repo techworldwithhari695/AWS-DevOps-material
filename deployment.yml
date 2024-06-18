@@ -1,0 +1,41 @@
+#K8S deployment manifest file(POD manifest + Service Manifest)
+
+---
+#POD Deployment Manifest
+
+cat deployment.yml 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginxwebappdeployment
+spec:
+  replicas: 3
+  strategy:
+   type: Recreate
+  selector:
+    matchLabels:
+      app: nginxwebapp
+  template:
+    metadata:
+      name: nginxwebapppod
+      labels:
+        app: nginxwebapp
+    spec:
+      containers:
+      - name: nginxwebapp
+        image: nginx
+        ports:
+        - containerPort: 80
+---
+#node-port service manifest
+apiVersion: v1
+kind: Service
+metadata:
+   name: nginxsvc
+spec:
+    type: NodePort
+    selector:
+            app: nginxwebapp
+    ports:
+    - port: 80
+      targetPort: 80
