@@ -4,7 +4,7 @@ https://www.youtube.com/playlist?list=PL5VWSIe6Ke7l8Xw-3-RJvbRfVAwU8N5Y3
 
 
 
-**Day2 Video recording url :**
+**Day3 Video recording url :**
 https://www.youtube.com/watch?v=mJdHh2FtLfk&list=PL5VWSIe6Ke7l8Xw-3-RJvbRfVAwU8N5Y3&index=3
 
 
