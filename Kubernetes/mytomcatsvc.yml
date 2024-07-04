@@ -1,0 +1,13 @@
+#manifest file
+---
+ apiVersion: v1
+kind: Service
+metadata:
+  name: mytomcat9svc
+spec:
+  type: ClusterIP
+  selector: mytomcat9
+  ports:
+  - port: 
+    targetPort: 8080
+...
