@@ -1,5 +1,5 @@
-Below is the link for the linux material,
-
+"Below is the link for the linux material",
+https://github.com/harikrishnacheruku866/AWS-DevOps-material/blob/main/Linux%20Material.docx
 
 USER PROMPT : 
 [root@localhost ~]#
