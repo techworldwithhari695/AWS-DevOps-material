@@ -1,3 +1,6 @@
+Below is the link for the linux material,
+
+
 USER PROMPT : 
 [root@localhost ~]#
 1. Login name    2. Machine name  3.present working directory                           4. User profile (# privileged mode (root user can execute any command)
