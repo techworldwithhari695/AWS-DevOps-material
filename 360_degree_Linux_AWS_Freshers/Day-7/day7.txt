@@ -1,0 +1,63 @@
+**************************
+day6: about basic commands
+**************************
+file/dir handiling tools
+mkdir dirname
+
+/root/360degree --> class1
+
+cd /root/
+cd /360degree
+mkdir class1
+
+whereever I am i want to create a file or dir or see the files or dire or contenent of the file
+
+messages file ... located in the /var/log/messages
+
+cd /var
+cd log
+cat messages
+
+/root/
+# cat /var/log/messses (by giving full path of the file/dir)
+
+We can execute the commands in two ways
+
+absolute path: Where ever u are you can excute the command by giving full path
+ex: cat /var/log/messages
+     mkdir -p /root/360degree/class1
+
+relative path: we need to go to the path then execute the command
+ex: cd /var
+cd log
+cat messages
+
+
+
+
+++++++++++++++++++++++++++++
+Day7:  Text processing tools
++++++++++++++++++++++++++++++
+
+touch : syntax : touch filename , ex: touch hari.txt, (it will create the file without data)
+
+cat : syntax: # cat filename , cat hari.txt ( we can read content of the file by using cat command)
+
+vi/vim : syntax : # vi filename, vi hari.txt ( create, modify , read the file) real time most of the times are using vi command only
+
+and vi having 3 modes .. 1) command mode 2) insert mode 3) execution mode
+
+head : it will display top 10 lines from given document/file syn: head options filename 
+
+tail : it will display the bottom 10 lines from the give document/file : syn: tail options files , tail -6f hari.txt applications/messages 
+file continously writing the logs .. it will display last 6 lines ....
+
+less: I want to see the data/read the data line by line or page by page (by press the spacebar (page by page) 
+by press enter button it will show line by line
+
+
+more:I want to see the data/read the data line by line or page by page (by press the spacebar (page by page) 
+by press enter button it will show line by line
+
+
+grep: grep searching the key word it will display perticular key word
