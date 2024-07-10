@@ -1,0 +1,24 @@
+---
+- name: Playbook
+  hosts: webservers
+  become: yes
+  become_user: root
+  tasks:
+    - name: ensure apache is the latest version
+      yum:
+       name: httpd
+       state: latest
+    - name: esnure apache is running
+      service:
+       name: httpd
+       state: started
+  tasks:
+    - name: ensure apache service is stoped
+      service:
+       name: httpd
+       state: stopped
+    - name: esnure apache package is uninstalled
+      yum:
+       name: httpd
+       state: absent
+
