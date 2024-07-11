@@ -1,6 +1,6 @@
 360Degree_Linux_aws_fresher PlayList Youtube ULR : https://www.youtube.com/playlist?list=PL5VWSIe6Ke7l8Xw-3-RJvbRfVAwU8N5Y3
 
-Day8 Video recording url : https://youtu.be/HJ4broWqwBo
+Day8 Video recording url : https://youtu.be/fZHRgt_h0rs
 
 Centos7 iso image url for download: https://drive.google.com/drive/folders/1MNTZmM2ib-fetSLc4jos__BGwezDtN3U?usp=sharing
 
