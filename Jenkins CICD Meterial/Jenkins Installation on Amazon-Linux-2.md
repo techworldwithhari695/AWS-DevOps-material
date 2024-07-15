@@ -91,4 +91,4 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 **Jenkins is successfully installed**
 ![13](https://user-images.githubusercontent.com/119833411/241410684-376c06df-ca86-4b54-a5cd-4c22f6075cbc.jpg)
 
-### Thank you for reading this post! I hope you found it helpful. If you have any feedback or questions, please feel free to reach out to me at sampathshivakumar@gmail.com or connect with me on LinkedIn at https://www.linkedin.com/in/sampathsivakumar-boddeti-1666b810b/. Your feedback is valuable to me. Thank you!
+### Thank you for reading this post! I hope you found it helpful. If you have any feedback or questions, please feel free to reach out to me at techworldwithhari@gmail.com or connect with me on LinkedIn at https://www.linkedin.com/in/harikrishna-cheruku-364b362a/ . Your feedback is valuable to me. Thank you!
